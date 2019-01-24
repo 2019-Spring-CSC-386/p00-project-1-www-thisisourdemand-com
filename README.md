@@ -1,4 +1,12 @@
 # P00: Project 1
+```diff
+- Pay attention to Markdown formatting, particularly when you want new paragraphs, which require two line breaks. 
+- Remove all help text. 
+- A diagram in your initial design plan would help visualize the setup. 
+- You have four sensors, all controlling one light. An outline of your code would help clarify what each does, and how coupling is avoided (or not). E.g., How is "motion sensed" plus "middle of the night dark" handled? How about ALL the other permutations?
+- You left off the actual lamp as hardware. Also, there's a little more hardware related to your lamp, in particular, how do you keep the 120V AC signal away from your Arduino? HINT: Look up relays. 
+- You mention "have three or four of these (light sensors?) talk to each other..." What does that mean?
+```
 *Our initial device idea is: a light, audio, and motion sensor to control light brightness.*
 *LightBrightsupreme for short*
 
