@@ -33,3 +33,7 @@ Outline the product you're creating:
   Primarily, I mean your code should include meaningful functions 
   and appropriate variables, and be formatted and commented well. 
   Sloppy code with no structure will be penalized 
+  
+  ## Sources of code and diagrams 
+Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com/photocells/arduino-code
+Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
