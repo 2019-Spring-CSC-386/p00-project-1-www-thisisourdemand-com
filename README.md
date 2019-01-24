@@ -15,7 +15,14 @@ increase the light while you are near differnet lamps. the motion sensor dimming
 
 
 ## Initial Design Plan
-*You'll complete this section as part of Milestone 1, and update regularly.*
+
+List of hardware components:
+- light sensor
+- pir motion detector
+- sound sensor
+- ultra sonic sensor
+- arduino
+- pcb board
 
 Outline the product you're creating:
 - List the hardware components you'll be using, and how they interact. 
