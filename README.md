@@ -1,5 +1,6 @@
 # P00: Project 1
 ```diff
+- Great journaling Rodney. Noah, yours is empty.
 - Pay attention to Markdown formatting, particularly when you want new paragraphs, which require two line breaks. 
 - Remove all help text. 
 - A diagram in your initial design plan would help visualize the setup. 
