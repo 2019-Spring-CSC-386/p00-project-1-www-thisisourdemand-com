@@ -25,8 +25,14 @@ List of hardware components:
 - ultra sonic sensor
 - arduino
 - pcb board
+- Needed: 
+- Receptor
+- Plugin cable for lightbulb
+- electrical Outlet with box
+- Surge protector
 
   
   ## Sources of code and diagrams 
 Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com/photocells/arduino-code
 Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
+Receptor and how to connect an outlet to an arduino diagram - http://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/ 
