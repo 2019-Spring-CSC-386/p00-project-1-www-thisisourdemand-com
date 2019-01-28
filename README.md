@@ -25,7 +25,7 @@ List of hardware components:
 - ultra sonic sensor
 - arduino
 - pcb board
-- Needed: 
+- ## Needed: 
 - Receptor
 - Plugin cable for lightbulb
 - electrical Outlet with box
