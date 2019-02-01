@@ -36,3 +36,5 @@ List of hardware components:
 Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com/photocells/arduino-code
 Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
 Receptor and how to connect an outlet to an arduino diagram - http://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/ 
+
+Relay information and how to control one - https://maker.pro/arduino/projects/arduino-lamp-dimmer
