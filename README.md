@@ -18,6 +18,9 @@ increase the light while you are near differnet lamps. the motion sensor dimming
 
 ## Initial Design Plan
 
+*At first we had several ideas and almost all of them had the same time of sensors that we wound up using. Out of the four original ideas we had through brainstorming sessions, three used light and motion sensors. One was a lazer cat toy that would detect motion and move a lazer around to avoid the movement while another project idea  was ment to keep the lights on at deep green by sensing when the lights went out and moving something large enought to activate the motion sensors of the room. The last project idea that we did not go with was a braclet that unlocked and locked your computer based off distance. 
+  We eventualy went with a plugin to an outlet that would sense when it was dark and had movemnt in the room. this would promt the light to turn on. Initialy we wanted the light to dim based on where the person in the room was. Meaning that if the person was closer to the sensors then the light would be brighter. If there were several lights in a room hooked up to several of our plugins, it would give adiquite lighting around the room (and look pretty cool). We had to pivot because of hardware limitations, we decided to have the light just turn on and off based on conditions that we give it and the stemuli in the room.
+
 List of hardware components:
 - LDR (light dependent resistor)
 - pir motion detector
