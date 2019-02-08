@@ -50,13 +50,18 @@ List of hardware components:
 - There are not many steps to using our device, simply plug your lamp into our outlet adapter and when the room is dark and you walk in the light will come on. Note it only comes on when it is both dark and there has been someone walk by it, or be within it's range within the last 30 minutes. If either of these criteria were not met the light will not come on. 
 ---
 ## Errors and Constraints
+
+### Constraints
 *The main constraints that we faced involved hardware. The hardware that we would have needed for multiple lights that dimmed together based off of distance and light would have been posible but the cost and time needed was unrealistic for this project. If given more time we probably would have attempted to have a dimmer mode. There were not too many issues involving errors since we took a direct route to our end product and did not use much more than our own code and example code. 
 
-## To note the only weaknesses we know of our device are
+### To note the only weaknesses we know of our device are
 - If the appliance is made to turn on or off repeatedly within a few seconds it will continue flickering between on and off repeatedly a few more times after you have stopped making it do so until it gets it's bearings. 
 - The device cannot test for a range of area around it only within a certain line in front of it, this works for turning on if someone walks past it, but not if you don't stay in that line, as in 30 minutes or an hour it will turn off if you are in the room but are not in front of it.
-
 --- 
+## Reflection 
+- For our project it feels like we have both acheived not a lot, and a lot. While we did make a plugin adapter that does power on the appliance when certain preset requirements we set are met, it does not have as many bells and whistles as either of us would have liked. Again we did make a smart plugin for appliances, but we had to scrap a lot of what we wanted it to do due to either time or component restraints. We had to scrap 2 or 3 sensors from the brainstorming phase due to time, and because we didn't have a relay that could dimn, if that's even a thing. We figure this out early though, overall the project has been a very fun experience, getting to pick eachothers brains over the correct way to do this, or what it needs. Having something we made from an idea between us into reality, using both code and harware is always a really fun experience. 
+- The thing I took away from this is to plan that your not going to have enough time or resources to get done everything you want to get done at least on the first iteration of a project. You can plan everything out and have ideas that you can implement in later iterations or work out entirely to fit resources and time. Working with others also means that you have to be able to work in their time frame and with both peoples ideas and around both parties weaknesses. Also one member missing for 2 consecutive weeks of class where we work on projects makes working on group projects harder.
+---
 ## References 
 Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com/photocells/arduino-code
 Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
