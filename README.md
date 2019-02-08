@@ -33,9 +33,13 @@ List of hardware components:
 - Plugin cable for lightbulb
 - electrical Outlet with box
 - Surge protector
-
-  
-  ## Sources of code and diagrams 
+# Files
+- photocell.png - This file is a diagram we found online displaying the layout of a basic photocell circuit and how to connect it, it is a source for us. 
+- Arduino-with-PIR-motion-sensor-schematics.jpg - This file is a diagram we found online displaying the layout of a basic PIR motion sensor circuit and how to connect it, it is a source for us. 
+- Motion_Sensor_in_Progress.ino - This file is our code from when we were modifying and figuring out the workings of some code from randomnerdtutorials.com, it is for a motion sensor that we are no longer using and is no longer necesary.
+- Photocell_In_Progress.ino - This file is our code from when we were modifying and figuring out the workings of some code from learn.adafruit.com, this code has been heavily modified and is in our main code file, so it is no longer necesary. 
+- Relay_controller.ino - This file is our main code file and is the only file necesary to our projects running, we have compiled code from 3 different sources and modified them to work together and be more efficient, this is the code on our arduino.
+  ## Sources of code, pinlayouts and diagrams 
 Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com/photocells/arduino-code
 Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
 Receptor and how to connect an outlet to an arduino diagram - http://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/ 
