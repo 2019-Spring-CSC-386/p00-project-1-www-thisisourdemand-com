@@ -59,3 +59,29 @@ Photocell: base code from by lady Ada from adafruit - https://learn.adafruit.com
 Pir motion sensor: base code by Rui Santos from randomnerdtutorials - https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/
 Receptor and how to connect an outlet to an arduino diagram - http://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/
 Relay information and how to control one - https://maker.pro/arduino/projects/arduino-lamp-dimmer
+
+## Final Self-Evaluations
+
+### Ideation, Brainstorming, Design:
+
+*Noah: 5*
+
+*Rodney: 5*
+
+### Code creation: 
+
+*Noah: 3*
+
+*Rodney: 7*
+
+### Documentation creation:
+
+*Noah: 6*
+
+*Rodney: 4*
+
+### Teamwork & Participation:
+
+*Noah: 5*
+
+*Rodney: 5*
