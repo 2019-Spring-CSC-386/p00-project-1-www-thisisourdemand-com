@@ -6,7 +6,7 @@
 **Google Document**: *https://docs.google.com/document/d/1AMVVuYMBYDSz7zLGW5eV8VUxL8aHxoK7N7UwnTj3HR8/edit?usp=sharing*
 
 ---
-## Purpose
+## Initial Purpose
 *plugs into an outlet and lets the lights/lamp plug into it. it has a sensor that senses how much light is in it's
 area of the room and adjusts the light acordingly. the goal is to have three or four of these lamps in a room and have
 them talk to each other so that they turn off together. the product will have differnt
@@ -14,6 +14,9 @@ modes as well, one for even brightness and another for motion sensor dimming. th
 increase the light while you are near differnet lamps. the motion sensor dimming mode would save electricity while the perfect brightness mode can be asthetic*
 
 *The LDRs that we will be using are probably not as acurate as we initialy thought, because of this the light will probably not be able to transition its brightness levels fluidly. A solution to this is having three light levels that it can transition through (low light, med light, high light).*
+
+## Final Purpose
+*The final purpose of this project is to have a product that will know when someone is in a room and if that room is dark or lit. It will turn on a lamp when there is a person active in the room and the room was previously dark. This project will conserve engergy by only turning on lights as needed.*
 ---
 ## Initial Design Plan
 
@@ -33,17 +36,19 @@ List of hardware components:
 - electrical Outlet with box
 - Surge protector
 ---
-# Files
+## Files
 - photocell.png - This file is a diagram we found online displaying the layout of a basic photocell circuit and how to connect it, it is a source for us. 
 - Arduino-with-PIR-motion-sensor-schematics.jpg - This file is a diagram we found online displaying the layout of a basic PIR motion sensor circuit and how to connect it, it is a source for us. 
 - Motion_Sensor_in_Progress.ino - This file is our code from when we were modifying and figuring out the workings of some code from randomnerdtutorials.com, it is for a motion sensor that we are no longer using and is no longer necesary.
 - Photocell_In_Progress.ino - This file is our code from when we were modifying and figuring out the workings of some code from learn.adafruit.com, this code has been heavily modified and is in our main code file, so it is no longer necesary. 
 - Relay_controller.ino - This file is our main code file and is the only file necesary to our projects running, we have compiled code from 3 different sources and modified them to work together and be more efficient, this is the code on our arduino.
 ---
-# Instructions 
+## Instructions 
 - There are not many steps to using our device, simply plug your lamp into our outlet adapter and when the room is dark and you walk in the light will come on. Note it only comes on when it is both dark and there has been someone walk by it, or be within it's range within the last 30 minutes. If either of these criteria were not met the light will not come on. 
 ---
-# Errors and Constraints
+## Errors and Constraints
+*The main constraints that we faced involved hardware. The hardware that we would have needed for multiple lights that dimmed together based off of distance and light would have been posible but the cost and time needed was unrealistic for this project. If given more time we probably would have attempted to have a dimmer mode. There were not too many issues involving errors since we took a direct route to our end product and did not use much more than our own code and example code. 
+
 ## To note the only weaknesses we know of our device are
 - If the appliance is made to turn on or off repeatedly within a few seconds it will continue flickering between on and off repeatedly a few more times after you have stopped making it do so until it gets it's bearings. 
 - The device cannot test for a range of area around it only within a certain line in front of it, this works for turning on if someone walks past it, but not if you don't stay in that line, as in 30 minutes or an hour it will turn off if you are in the room but are not in front of it.
